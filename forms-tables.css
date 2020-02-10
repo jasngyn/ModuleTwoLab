@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Caveat Brush', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 300px;
+  background-color: #DFDEDF;
+  background-image: url('img/green-leaf-med.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+  color: #FFFFFF;
+  text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+form {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, textarea {
+  background-color: #EAEAEA;
+  border-radius: 5px;
+}
+
+/* Form accessibility - added cursor to help user easily identify the submit button*/
+input[type=submit] {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* Form accessibility - changed text color for easier identification */
+label {
+  color: #4CAF50;
+}
+
+table {
+  table-layout: fixed;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #8DF47A;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color: #65B457;
+  color: #FFFFFF;
+  text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 20px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #8DF47A;
+}
